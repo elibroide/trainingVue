@@ -1,5 +1,5 @@
 <template>
-  <table class="userList">
+  <table class="normal-table">
     <thead>
       <tr>
         <th>Name</th>
@@ -41,34 +41,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "~@/styles/tooltip.scss";
-
-.userList {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.userList td,
-.userList th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-.userList tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.userList tr:hover {
-  background-color: #ddd;
-}
-
-.userList th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4caf50;
-  color: white;
-}
-</style>
+<style lang="scss" scoped></style>

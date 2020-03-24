@@ -72,9 +72,14 @@ const mutations = {
   }
 };
 
+const getters = {
+  usersCount: state => state.userList.length
+};
+
 export default {
   namespaced: true,
   state,
   actions,
-  mutations
+  mutations,
+  getters
 };

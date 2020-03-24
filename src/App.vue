@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link class="button" to="/users">Show All Users</router-link> |
-      <router-link class="button" to="/users/add">Add</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
+@import "~@/styles/tooltip.scss";
+@import "~@/styles/normalTable.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
