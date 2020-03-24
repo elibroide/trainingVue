@@ -17,7 +17,7 @@
         <td>{{ user.name }}</td>
         <td>{{ user.phone }}</td>
         <td>{{ user.company.name }}</td>
-        <td><button @click="removeUser(user.id)">Clear</button></td>
+        <td><button @click="removeUser(user.id)">Remove</button></td>
       </tr>
     </tbody>
   </table>

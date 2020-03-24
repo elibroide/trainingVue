@@ -39,4 +39,48 @@
   display: inline-block;
   font-size: 16px;
 }
+
+.form-group {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0 20px 10px;
+  padding: 0 0 0 10px;
+}
+
+input[type="text"] {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 13px;
+  height: 33px;
+  margin: 0;
+  padding: 0 0 0 15px;
+  width: 100%;
+}
+
+.error-message {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+.input-group .error-message {
+  display: none;
+}
+
+/* Error Styling */
+
+.error input[type="text"] {
+  background-color: #fce4e4;
+  border: 1px solid #cc0033;
+  outline: none;
+}
+
+.error .error-message {
+  display: block;
+}
 </style>
